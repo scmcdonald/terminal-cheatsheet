@@ -1,5 +1,9 @@
 # Terminal Cheatsheet
 
+### Logging in
+
+ssh <sunetid>@login.sherlock.stanford.edu
+
 ### Edit files
 
 `vi file.ext`
