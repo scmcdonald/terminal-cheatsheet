@@ -31,4 +31,5 @@ torch is big to install, so use `pip install torch --no-cache-dir`
 
 [Princeton Research Computing](https://researchcomputing.princeton.edu/support/knowledge-base/python)
 
+[University of Florida Research Computing](https://help.rc.ufl.edu/doc/Using_Variables_in_SLURM_Jobs)
 
