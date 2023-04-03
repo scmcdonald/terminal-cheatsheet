@@ -2,7 +2,7 @@
 
 ### Logging in
 
-ssh <sunetid>@login.sherlock.stanford.edu
+ssh \<sunetid\>@login.sherlock.stanford.edu
 
 ### Edit files
 
@@ -21,6 +21,19 @@ when done, `esc` then `:x`
 
 `cat file.out`
 
+### Feeding in outside variable values
+
+in terminal:
+
+`sbatch --export=N=1000,P_CONTROL=0.4,SAMPLE=1,DATASET=1,REPS=10 run_power.sh`
+
+in file: 
+
+`n_list= Sys.getenv('N')
+p_list = Sys.getenv('P_CONTROL')
+s_list = Sys.getenv('SAMPLE')
+d_list = Sys.getenv('DATASET')
+replications = Sys.getenv('REPS')`
 
 
 torch is big to install, so use `pip install torch --no-cache-dir`
